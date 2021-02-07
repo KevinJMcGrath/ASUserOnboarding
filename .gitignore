@@ -1,0 +1,21 @@
+# Pycharm
+.idea/
+
+# Python
+__pycache__/
+
+# config
+config.json
+
+# secrets
+keys/
+certs/
+*.pem
+*.crt
+
+# data
+input/
+output/
+*.csv
+*.xls
+*.xlsx

@@ -1,0 +1,6 @@
+simple-salesforce
+jsonpickle
+openpyxl
+pysimplegui
+python-dateutil
+wxpython

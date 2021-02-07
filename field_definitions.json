@@ -1,0 +1,44 @@
+{
+  "contact_user_fields": [
+    {"label": "Contact ID", "api_name": "Id", "type": "text", "default_value": ""},
+    {"label": "Account ID", "api_name": "AccountId", "type": "text", "default_value": ""},
+    {"label": "First Name", "api_name": "FirstName", "type": "text", "default_value": ""},
+    {"label": "Last Name", "api_name": "LastName", "type": "text", "default_value": ""},
+    {"label": "Email", "api_name": "Email", "type": "text", "default_value": ""},
+    {"label": "Mailing Street", "api_name": "MailingStreet", "type": "text", "default_value": ""},
+    {"label": "Mailing City", "api_name": "MailingCity", "type": "text", "default_value": ""},
+    {"label": "Mailing State/Province", "api_name": "MailingState", "type": "text", "default_value": ""},
+    {"label": "Mailing Zip/Postal Code", "api_name": "MailingPostalCode", "type": "text", "default_value": ""},
+    {"label": "Mailing Country", "api_name": "MailingCountry", "type": "dropdown", "default_value": ""}
+  ],
+  "contact_setup_fields": [
+    {"label": "Type", "api_name": "Type__c", "type": "dropdown", "default_value": "", "picklist_options": ["Equity Buy Side", "Fixed Income Buy Side", "Sell Side - Investment Banking", "Sell Side - Research", "Competitive Intelligence", "Corporate Communications", "Corporate Development (M&A)", "Corporate Investor Relations", "Corporate Strategy", "Education", "Financial Planning & Analysis", "Independent Research", "Legal", "Librarian", "Marketing", "Private Equity", "Regulatory", "Researcher/Consultant/Advisor", "Other", "Internal User", "Individual Investor", "Student", "Finserv-General"]},
+    {"label": "Contact Owner", "api_name": "OwnerId", "type": "text", "default_value": ""},
+    {"label": "Lead Source", "api_name": "LeadSource", "type": "dropdown", "default_value": ""},
+    {"label": "Opportunity", "api_name": "Opportunity__c", "type": "text", "default_value": ""},
+    {"label": "Renewal Opportunity", "api_name": "Renewal_Opportunity__c", "type": "text", "default_value": ""}
+  ],
+  "activation_template_fields": [
+    {"label": "User Status (platform)_AS", "api_name": "Status_of_User__c", "type": "dropdown", "default_value": "", "picklist_options": ["Active", "Inactive", "Trial"]},
+    {"label": "Username_AS", "api_name": "Username__c", "type": "text", "default_value": ""},
+    {"label": "Password_AS", "api_name": "Password__c", "type": "text", "default_value": ""},
+    {"label": "Confirm Password_AS", "api_name": "Confirm_Password__c", "type": "text", "default_value": ""},
+    {"label": "Effective Date (paying user)", "api_name": "Effective_Date_paying_user__c", "type": "date", "default_value": "TODAY"},
+    {"label": "Current Contract Effective Date", "api_name": "Current_Contract_Effective_Date__c", "type": "date", "default_value": "TODAY"},
+    {"label": "User Status (contract)", "api_name": "User_Status__c", "type": "dropdown", "default_value": "", "picklist_options": ["Prospective User", "Paying User (Original ID)", "Paying User (ID Swap)", "Paid Trial User", "Paying User (Inactive)", "Former User (canceled)", "Former User (ID transfer)", "Non-paying User"]},
+    {"label": "Trial Start_AS", "api_name": "Trial_Start__c", "type": "date", "default_value": "TODAY"},
+    {"label": "Trial Kick-Off", "api_name": "Trial_Kick_Off__c", "type": "date", "default_value": "TODAY"},
+    {"label": "Trial End_AS", "api_name": "Trial_End__c", "type": "date", "default_value": "TODAY"},
+    {"label": "AS Premium News Content", "api_name": "AS_Premium_News_Content__c", "type": "checkbox", "default_value": ""},
+    {"label": "BRM User Type", "api_name": "TR_Request_Type__c", "type": "picklist", "default_value": "", "picklist_options": ["Trial", "Purchase", "Cancelation", "Purchase (Inactive)"]},
+    {"label": "BRM Purchase Date", "api_name": "TR_Service_Start_Date__c", "type": "date", "default_value": "TODAY"},
+    {"label": "Broker Research (BRM) (TR) Region_AS", "api_name": "Broker_Research_Module__c", "type": "picklist", "default_value": "", "picklist_options": ["Global (all)", "North America", "EMEA", "Asia", "None"]},
+    {"label": "Dashboard Access_AS", "api_name": "Feature_Flag_2_AS__c", "type": "checkbox", "default_value": ""},
+    {"label": "Dashboard Auto Alerts_AS", "api_name": "Dashboard_Auto_Alerts_AS__c", "type": "checkbox", "default_value": ""},
+    {"label": "LexisNexis_AS", "api_name": "LexisNexis__c", "type": "dropdown", "default_value": "On", "picklist_options": ["Off", "On", "Trial"]},
+    {"label": "MTNewswireLiveBriefPro_AS", "api_name": "MTNewswireLiveBriefPro_AS__c", "type": "checkbox", "default_value": ""},
+    {"label": "PositionId_AS", "api_name": "PositionId__c", "type": "dropdown", "default_value": "", "picklist_options": ["Accounting/Finance", "Actuary", "ALM Analyst", "Analyst", "Analyst - Credit", "Application Developer", "Assistant", "Associate", "Business Development", "Business Strategy", "Chief Compliance Officer", "Chief Investment Officer", "Client Service", "Compliance", "Consultant", "Corporate Access", "Desktop Support", "Director", "Director of Research", "Economist", "Editor", "Executive", "FactSet Employee", "FactSet Utility Serial", "Government Agency Analyst", "Head of Performance", "Head of Risk", "Head Trader", "Independent Investor", "Intern", "Investor Relations", "Lab/Trading Room", "Lawyer", "LDI Analyst", "Legal", "Library", "Machine", "Managing Director", "Market Data", "Marketing", "Network Engineer", "Operations", "Other", "Packaging/Deployment", "Partner", "Pending Assignment", "Performance Analyst", "Portfolio Analyst", "Portfolio Manager", "Prime Brokerage", "Principal", "Procurement", "Product/Portfolio Manager", "Production Support", "Product Manager", "Professor", "Reporter", "Research Sales", "Risk Analyst", "Sales", "Security Engineer", "Strategist", "Student", "Trader", "Treasury", "Vendor Management", "Vice President", "Wealth Manager"]},
+    {"label": "Primary Research (PRM)_AS", "api_name": "Region_s_Subscribed__c", "type": "picklist", "default_value": "", "picklist_options": ["Global (all)", "North America", "EMEA (Europe, Middle East and Africa)", "Asia", "None (Empty Container)"]},
+    {"label": "Transcripts Type_AS", "api_name": "Transcripts_Type__c", "type": "dropdown", "default_value": "", "picklist_options": ["Thomson Reuters", "N/A", "SeekingAlpha", "Factset", "Enhanced Transcripts"]}
+  ]
+}
